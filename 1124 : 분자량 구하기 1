@@ -1,0 +1,6 @@
+main(){
+    int a,b;
+    char c, d;
+    scanf("%c%d%c%d",&c,&a,&d,&b);
+    printf("%d", a*12+b);
+}
