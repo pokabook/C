@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+	double a, b;
+	scanf("%lf", &a);
+	a = a/5;
+	b=  a*9 + 32;
+	printf("%.3lf", b);
+	
+	return 0;
+} 
