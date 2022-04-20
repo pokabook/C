@@ -1,0 +1,21 @@
+#include "stdio.h"
+
+int main()
+{
+    char name[21];
+    int age;
+    char c;
+    float d;
+
+    scanf("%s", &name);
+    scanf("%d", &age);
+    scanf(" %c", &c);
+    scanf("%g", &d);
+
+    printf("%s\n", name);
+    printf("%d\n", age);
+    printf("%c\n", c);
+    printf("%g", d);
+
+    return 0;
+}
