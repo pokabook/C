@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+	int a, b;
+	double c;
+	scanf("%d %d", &a, &b);
+	c = (float)(a*b) / 2;
+	printf("%.1lf", c);
+	
+	return 0;
+} 
